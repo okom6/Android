@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/wlasny"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <TableRow
+        android:layout_width="363dp"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/rec"
+            android:layout_width="117dp"
+            android:layout_height="wrap_content"
+            android:text="Nagrywaj"/>
+
+        <Button
+            android:id="@+id/stop"
+            android:layout_width="133dp"
+            android:layout_height="wrap_content"
+            android:text="Pauzuj" />
+
+        <Button
+            android:id="@+id/play"
+            android:layout_width="125dp"
+            android:layout_height="wrap_content"
+            android:text="Odtwarzaj"/>
+    </TableRow>
+
+</TableLayout>
